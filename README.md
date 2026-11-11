@@ -52,4 +52,3 @@ npm test
 - **v1.0.0** — complete first release with all five planned features
 
 Built for the Applied Programming & AI Fundamentals course.
-

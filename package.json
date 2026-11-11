@@ -1,0 +1,9 @@
+{
+  "name": "momentum-focus-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Manifest V3 Chrome new-tab focus dashboard",
+  "scripts": {
+    "test": "node --test tests/smoke.test.mjs && node --check newtab.js && node --check background.js && node --check images.js"
+  }
+}
