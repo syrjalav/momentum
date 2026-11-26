@@ -74,6 +74,7 @@ The tests use Node's built-in test runner and syntax checker; no package install
 | `tests/` | Dependency-free structural smoke tests |
 | `PRODUCT_SPEC.md` | Scope and acceptance criteria |
 | `PRIVACY.md` | Plain-language data handling summary |
+| `AUDIT.md` | Sanitized publication audit, fixes, and repeat checks |
 
 ## Learning, challenge, and solution
 

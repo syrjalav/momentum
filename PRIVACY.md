@@ -1,6 +1,6 @@
 # Privacy
 
-Momentum Focus Dashboard does not collect, sell, or transmit personal data.
+Momentum Focus Dashboard does not collect or sell personal data, and it does not send dashboard content to a project server. If the user submits a Google search, the search terms are intentionally sent to Google.
 
 The extension stores the following information locally in the user's Chrome profile:
 
