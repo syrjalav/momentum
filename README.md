@@ -77,9 +77,17 @@ The tests use Node's built-in test runner and syntax checker; no package install
 
 ## Learning, challenge, and solution
 
-The main implementation challenge visible in this project is keeping a timer reliable when a Manifest V3 service worker is not continuously running. The solution is to persist the timer's end time, use a Chrome alarm for completion, and recalculate the remaining time whenever state is read. The project also demonstrates how extension permissions, local persistence, accessible controls, and a responsive interface fit together without a framework or build tool.
+### What I learned
 
-This is an evidence-based summary of the implementation. The student should be prepared to explain these decisions in their own words and personalize the reflection if their own learning emphasis was different.
+Before this project, I did not know how Chrome extensions worked behind the scenes. I learned that a simple extension is more approachable than I expected and how the manifest, new-tab page, background service worker, permissions, and local storage work together.
+
+### Challenge I encountered
+
+My main challenge was getting the extension generated with ChatGPT to look and behave the way I had imagined. Early versions did not always match the design or details I wanted.
+
+### How I approached it
+
+I used an iterative process: I reviewed each version, explained what did not match my goal, and gave ChatGPT more specific prompts for the next version. Repeating that cycle and making the requested changes more precise gradually brought the interface closer to what I wanted.
 
 ## Limitations
 
